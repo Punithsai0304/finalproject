@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>My Care | CareNova</title><link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body class="dashboard-body">
+<header class="dash-header"><a class="brand" href="index.html"><span class="brand-mark">C</span> CareNova</a><div class="dash-user"><span id="userBadge">Patient</span><button id="logoutBtn" class="btn btn-outline btn-small">Sign out</button></div></header>
+<div class="dashboard-layout">
+<aside class="sidebar"><p class="eyebrow">YOUR SPACE</p><button class="side-link active" data-tab="overview">◈ Overview</button><button class="side-link" data-tab="appointments">▦ Appointments</button><button class="side-link" data-tab="pets">♡ My pets</button><button class="side-link" data-tab="doctors">✳ Find care</button><div class="sidebar-bottom"><p class="eyebrow">PATIENT ID</p><b id="sidebarPatientId">—</b><small>Keep this ID for future visits.</small></div></aside>
+<main class="dash-main" id="patientApp">
+<div class="loading">Loading your care dashboard…</div>
+</main>
+</div>
+<script src="js/app.js"></script><script src="js/patient.js"></script><script src="js/appointments.js"></script><script src="js/feedback.js"></script>
+</body></html>
